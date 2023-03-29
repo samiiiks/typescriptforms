@@ -16,7 +16,6 @@ const SignupForm: FunctionComponent = () => {
     const validatePassword = (password: string) => {
 
         if (/^[a-zA-Z0-9!@#$%^&*]{6,16}$/.test(password)) {
-            toast.success('pass');
             return true;
         }
         return false;

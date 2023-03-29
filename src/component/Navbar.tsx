@@ -9,6 +9,7 @@ const Navbar:FunctionComponent = () => {
             <Link to='/home' className='navlink' >Home</Link>
             <Link to='/about' className='navlink'>About</Link>
             <Link to='/login' className='navlink'>Log in</Link>
+            <Link to='/sorting' className='navlink'>Sorting</Link>
         </div>
     )
 }
